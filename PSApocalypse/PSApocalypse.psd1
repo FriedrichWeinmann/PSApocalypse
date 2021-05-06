@@ -39,7 +39,9 @@
 	# FormatsToProcess = @('xml\PSApocalypse.Format.ps1xml')
 	
 	# Functions to export from this module
-	FunctionsToExport = ''
+	FunctionsToExport = @(
+        'Invoke-Armaggeddon'
+    )
 	
 	# Cmdlets to export from this module
 	CmdletsToExport = ''
