@@ -7,7 +7,9 @@
     Long description
     
     .EXAMPLE
-    An example
+        PS C:\> Invoke-Armaggeddon
+
+        Invokes the end of everything
     
     .NOTES
         Author: Friedrich Weinmann
