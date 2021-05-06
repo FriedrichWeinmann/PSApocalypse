@@ -1,0 +1,22 @@
+﻿
+# ignore the settings folder and files for VSCode and PSS
+.vscode/*
+*.psproj
+*TempPoint*
+
+# Ignore staging info from Visual Studio
+library/PSApocalypse/.vs/*
+library/PSApocalypse/PSApocalypse/bin/*
+library/PSApocalypse/PSApocalypse/obj/*
+
+# ignore PowerShell Studio MetaData
+PSApocalypse/PSApocalypse.psproj
+PSApocalypse/PSApocalypse.psproj.bak
+PSApocalypse/PSApocalypse.psprojs
+PSApocalypse/PSApocalypse.psproj
+
+# ignore the TestResults
+TestResults/*
+
+# ignore the publishing Directory
+publish/*
